@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+}
+                   /*? Navbar */
+ 
+.navbar{
+    padding: 8px;
+    background-color: rgba(99, 196, 8, 0.5);
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    width: 62px;
+}
+
+#Banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 56px;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.about{
+    display: flex;
+    padding: 8px;
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+.description{
+    font-size: 25;
+}
+
+a{
+    text-decoration: none;
+    color: #6381ed;
+}
+a:hover{
+    color: #434190;
+}
+                          /*? TAble */
+
+.time{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+#time-table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+#table-header-row th {
+    background-color: aliceblue;
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    color: rgba(8, 177, 168, 2);
+}
+#table-data-row td {
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+#time-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+                         /*? Form section */
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 1.25rem;
+}
+#application-form input, select{
+    padding: 6px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 4px;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="submit"]{
+    background-color: rgba(9, 9, 221, 0.74);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.form-group{
+    margin: 8px;
+}
+
+                         /*? Footer */
+
+#footer{
+    background-color: beige;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}                  
+#footLinks{
+    list-style: none;
+}      
+#footLinks li{
+    margin: 0 16px;
+    display: inline;
+}
